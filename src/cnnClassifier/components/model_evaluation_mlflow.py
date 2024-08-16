@@ -1,10 +1,12 @@
 import tensorflow as tf
 from pathlib import Path
-import mlflow # type: ignore
-import mlflow.keras # type: ignore
+import mlflow
+import mlflow.keras 
 from cnnClassifier.utils.common import read_yaml, create_directories, save_json
 from urllib.parse import urlparse
 from cnnClassifier.entity.config_entity import EvaluationConfig
+import dagshub
+import mlflow
 
 class Evaluation:
     def __init__(self, config: EvaluationConfig):
@@ -37,7 +39,7 @@ class Evaluation:
 
 
     @staticmethod
-    def load_model(path: Path) -> tf.keras.Model:
+    def load_model(path: Path) -> tf.keras.Model:  # type: ignore
         return tf.keras.models.load_model(path)
     
 
@@ -53,6 +55,7 @@ class Evaluation:
 
     
     def log_into_mlflow(self):
+        dagshub.init(repo_owner='ayushhsinghhh', repo_name='Kidney-Disease', mlflow=True)
         mlflow.set_registry_uri(self.config.mlflow_uri)
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
         
