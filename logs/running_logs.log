@@ -91,3 +91,49 @@ x==========x]
 [2024-08-16 17:19:01,310: INFO: main: >>>>>> stage Training completed <<<<<<
 
 x==========x]
+[2024-08-16 18:01:38,242: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-16 18:01:38,360: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-16 18:01:38,362: INFO: common: created directory at: artifacts]
+[2024-08-16 18:02:04,416: INFO: common: json file saved at: scores.json]
+[2024-08-16 18:02:23,792: WARNING: connectionpool: Retrying (Retry(total=4, connect=5, read=4, redirect=5, status=5)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))': /ayushhsinghhh/Kidney-Disease.mlflow/api/2.0/mlflow/runs/create]
+[2024-08-16 18:02:33,024: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 13). These functions will not be directly callable after loading.]
+[2024-08-16 18:02:35,669: INFO: builder_impl: Assets written to: C:\Users\ayush\AppData\Local\Temp\tmpxstlc73d\model\data\model\assets]
+[2024-08-16 18:22:37,236: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-08-16 18:22:37,282: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-16 18:22:37,292: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-16 18:22:37,301: INFO: common: created directory at: artifacts]
+[2024-08-16 18:22:37,327: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-08-16 18:22:37,327: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-08-16 18:22:57,516: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-08-16 18:22:59,754: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-08-16 18:22:59,757: INFO: main: *******************]
+[2024-08-16 18:22:59,757: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-08-16 18:22:59,775: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-16 18:22:59,787: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-16 18:22:59,787: INFO: common: created directory at: artifacts]
+[2024-08-16 18:22:59,792: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-08-16 18:23:06,216: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-08-16 18:23:07,536: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-08-16 18:23:07,544: INFO: main: *******************]
+[2024-08-16 18:23:07,548: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-08-16 18:23:07,569: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-16 18:23:07,587: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-16 18:23:07,599: INFO: common: created directory at: artifacts]
+[2024-08-16 18:23:07,608: INFO: common: created directory at: artifacts\training]
+[2024-08-16 18:24:10,108: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-08-16 18:24:10,113: INFO: main: *******************]
+[2024-08-16 18:24:10,113: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-08-16 18:24:10,144: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-16 18:24:10,176: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-16 18:24:10,179: INFO: common: created directory at: artifacts]
+[2024-08-16 18:24:18,497: INFO: common: json file saved at: scores.json]
+[2024-08-16 18:24:18,502: INFO: common: json file saved at: scores.json]
+[2024-08-16 18:24:18,504: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
