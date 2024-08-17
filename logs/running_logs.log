@@ -370,3 +370,61 @@ x==========x]
 [2024-08-16 23:58:30,650: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-08-17 10:18:50,884: INFO: stage_03_model_training: *******************]
+[2024-08-17 10:18:50,885: INFO: stage_03_model_training: >>>>>> stage Training started <<<<<<]
+[2024-08-17 10:18:50,912: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-17 10:18:50,922: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-17 10:18:50,922: INFO: common: created directory at: artifacts]
+[2024-08-17 10:18:50,922: INFO: common: created directory at: artifacts\training]
+[2024-08-17 10:20:44,720: INFO: stage_03_model_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-08-17 10:21:21,157: INFO: stage_04_model_evaluation: *******************]
+[2024-08-17 10:21:21,158: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-08-17 10:21:21,165: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-17 10:21:21,165: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-17 10:21:21,174: INFO: common: created directory at: artifacts]
+[2024-08-17 10:21:40,831: INFO: common: json file saved at: scores.json]
+[2024-08-17 10:21:40,843: INFO: common: json file saved at: scores.json]
+[2024-08-17 10:21:42,357: INFO: helpers: Accessing as ayushhsinghhh]
+[2024-08-17 10:21:43,756: INFO: helpers: Initialized MLflow to track repo "ayushhsinghhh/Kidney-Disease"]
+[2024-08-17 10:21:43,756: INFO: helpers: Repository ayushhsinghhh/Kidney-Disease initialized!]
+[2024-08-17 10:21:50,560: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 13). These functions will not be directly callable after loading.]
+[2024-08-17 10:21:52,018: INFO: builder_impl: Assets written to: C:\Users\ayush\AppData\Local\Temp\tmpqucicjmv\model\data\model\assets]
+[2024-08-17 10:22:55,919: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-08-17 10:28:25,122: INFO: stage_02_prepare_base_model: *******************]
+[2024-08-17 10:28:25,122: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2024-08-17 10:28:25,131: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-17 10:28:25,143: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-17 10:28:25,148: INFO: common: created directory at: artifacts]
+[2024-08-17 10:28:25,150: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-08-17 10:28:29,575: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-08-17 10:28:30,475: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-08-17 10:28:48,549: INFO: stage_03_model_training: *******************]
+[2024-08-17 10:28:48,552: INFO: stage_03_model_training: >>>>>> stage Training started <<<<<<]
+[2024-08-17 10:28:48,557: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-17 10:28:48,567: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-17 10:28:48,569: INFO: common: created directory at: artifacts]
+[2024-08-17 10:28:48,570: INFO: common: created directory at: artifacts\training]
+[2024-08-17 10:30:11,354: INFO: stage_03_model_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-08-17 10:30:41,878: INFO: stage_04_model_evaluation: *******************]
+[2024-08-17 10:30:41,883: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-08-17 10:30:41,886: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-17 10:30:41,894: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-17 10:30:41,894: INFO: common: created directory at: artifacts]
+[2024-08-17 10:30:55,928: INFO: common: json file saved at: scores.json]
+[2024-08-17 10:30:55,928: INFO: common: json file saved at: scores.json]
+[2024-08-17 10:30:57,475: INFO: helpers: Accessing as ayushhsinghhh]
+[2024-08-17 10:30:58,948: INFO: helpers: Initialized MLflow to track repo "ayushhsinghhh/Kidney-Disease"]
+[2024-08-17 10:30:58,957: INFO: helpers: Repository ayushhsinghhh/Kidney-Disease initialized!]
+[2024-08-17 10:31:06,032: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 13). These functions will not be directly callable after loading.]
+[2024-08-17 10:31:07,551: INFO: builder_impl: Assets written to: C:\Users\ayush\AppData\Local\Temp\tmprqqp_z7g\model\data\model\assets]
+[2024-08-17 10:32:03,458: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]

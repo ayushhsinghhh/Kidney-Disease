@@ -64,6 +64,6 @@ class PrepareBaseModel:
     
         
     @staticmethod
-    def save_model(path: Path, model: tf.keras.Model):
+    def save_model(path: Path, model: tf.keras.Model): #type: ignore
         model.save(path)
 
